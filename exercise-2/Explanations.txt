@@ -1,0 +1,24 @@
+1.
+React is a JavaScript library created by Facebook.
+React is a User Interface (UI) library.
+React is a tool for building UI components
+
+2.
+React components are independent and reusable code. 
+They are the building blocks of any React application. 
+Components serve the same purpose as JavaScript functions, but work individually to return JSX code as elements for our UI.
+
+3.
+A single-page application (SPA) is a Web app that is presented to the user through a single HTML page to be more responsive and to more closely replicate a desktop application or a native app.
+Some examples of Single Page Applications are Gmail, Google Maps, AirBNB, Netflix.
+
+4. Declarative programming (versus imperative programming)
+Declarative programming is a paradigm describing WHAT the program does, without explicitly specifying its control flow.
+Imperative programming is a paradigm describing HOW the program should do something by explicitly specifying each instruction (or statement) step by step, which mutate the program's state.
+
+5.
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. 
+
+6.
+synchronous communications are scheduled, real-time interactions by phone, video, or in-person.
+Asynchronous communication happens on your own time and doesn't need scheduling.
