@@ -1,0 +1,83 @@
+3.1
+
+
+const greet = () => {
+    console.log("Hello there!");
+  }
+    
+  const sum = (a, b, c) => {
+    return a + b + c;
+  }
+
+
+
+3.2
+
+const names = ["Lily", "Aurelius", "Peter"];
+
+function longestName(names) {
+names.sort(function(a, b) {return b.length - a.length});
+return names[0].length;
+
+}
+
+console.log(longestName(names));
+
+
+3.3
+
+
+let x = Math.floor(Math.random() * 2);
+x == 0 ? console.log("Good morning") : console.log("Good evening");
+
+
+3.4
+
+
+let x = randomInt(1, 10)
+
+function randomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+  
+  console.log(x)
+  x%2 == 0 ? console.log("Parillinen luku!") :  console.log("Pariton luku!");
+
+
+3.5
+
+
+let krauta = [
+    "Vesa",
+    "Daniel",
+    "Niko",
+    "Mikko"
+    ]
+
+    let names = krauta[Math.floor(Math.random() * krauta.length)]
+    console.log(names)
+
+
+3.6
+
+
+const southamericans = ["Pele", "Maradona", "Messi"];
+const europeans = ["Baggio", "Zidane", "Litmanen"];
+const footballers = southamericans.concat(europeans);
+
+console.log(footballers);
+
+
+3.7
+
+
+const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+[x,y] = numbers;
+console.log(x, y);
+
+[x,z,y] = numbers;
+console.log(x, y);
+
+[x,z,y,e, ...rest] = numbers;
+console.log(rest);
